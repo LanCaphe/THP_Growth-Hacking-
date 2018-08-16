@@ -1,0 +1,12 @@
+// Place all the styles related to the users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.bg-overlay {
+    position: absolute; 
+    height: 100%; 
+    width: 100%;
+    top:0;
+    left:0;
+    background: rgba(4,61,102,0.45);
+    z-index: -1;
+}

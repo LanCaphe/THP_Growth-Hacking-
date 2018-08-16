@@ -1,0 +1,50 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ @import "bootstrap";
+ @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:300,400');
+ 
+ /* FONTS */
+ 
+ body {
+     font-family: 'Montserrat 400', sans-serif;
+     height: 100vh;
+     background: image-url('bg-sailing.jpg') no-repeat 50% 20%;
+ }
+ 
+ h1,
+ h2,
+ h3 {
+     font-family: 'Montserrat 700', sans-serif
+ }
+ 
+ /* LINKS */
+ 
+ a {
+     font-family: 'Raleway';
+     text-decoration: none;
+     color: inherit
+ }
+ 
+ a:hover {
+     text-decoration: none
+ }
+ 
+ .container {
+     max-width: 1000px;
+     margin: 0 auto;
+     z-index: 2 !important
+ }
+ 

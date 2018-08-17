@@ -66,7 +66,7 @@ task bot_mailling: :environment do
             body "<p>Bonjour,<br>
               Je nous sommes des élèves de The Hacking Project, une formation au code gratuite,
               sans locaux, sans sélection, sans restriction géographique.<br></p>
-              <p>Pour plus d'information cliquer sur ce lien</p>
+              <p>Pour plus d'informations, rendez-vous sur : https://growth-hacking-flers-lille.herokuapp.com/</p>
               <p>Charles, co-fondateur de The Hacking Project pourra répondre à toutes vos questions : 06.95.46.60.80</p>"
           end
              sleep 60

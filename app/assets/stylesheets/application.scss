@@ -13,38 +13,38 @@
  *= require_tree .
  *= require_self
  */
- @import "bootstrap";
- @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:300,400');
- 
- /* FONTS */
- 
- body {
-     font-family: 'Montserrat 400', sans-serif;
-     height: 100vh;
-     background: image-url('bg-sailing.jpg') no-repeat 50% 20%;
- }
- 
- h1,
- h2,
- h3 {
-     font-family: 'Montserrat 700', sans-serif
- }
- 
- /* LINKS */
- 
- a {
-     font-family: 'Raleway';
-     text-decoration: none;
-     color: inherit
- }
- 
- a:hover {
-     text-decoration: none
- }
- 
- .container {
-     max-width: 1000px;
-     margin: 0 auto;
-     z-index: 2 !important
- }
- 
+
+@import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:300,400');
+/* FONTS */
+
+body {
+    font-family: 'Montserrat 400', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    background: image-url('bg-sailing.jpg') no-repeat 50% 20%;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Montserrat 700', sans-serif
+}
+
+/* LINKS */
+
+a {
+    font-family: 'Raleway';
+    text-decoration: none;
+    color: inherit
+}
+
+a:hover {
+    text-decoration: none
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    z-index: 2 !important
+}

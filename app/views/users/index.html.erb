@@ -1,23 +1,25 @@
 
-    <div class="container">
-        <div class="cta-title">
-            <h1>Inscrivez-vous<br/>à cette superbe newsletter</h1>
+    <div class="container-fluid content-center d-inline-block">
+      <div class="row">
+        <div class="cta-desc-wrapper col-md-6 d-inline-block">
+            <h2 class="desc">Inscrivez-vous à cette superbe newsletter</h2>
         </div>
-        <div class="form-wrapper">
-            <%= form_for @user do |form| %>
-              <div class="field">
-                <%= form.label :name %>
-                <%= form.text_field :name %>
-              </div>
+        <div class="cta-form-wrapper col-md-6 d-inline-block">
+          <%= form_for @user, :html => {:class => 'cta-form'} do |form| %>
+            <div class="field">
+              <label class="sr-only" for="email">name:</label>
+              <%= form.text_field :name, placeholder: "Votre nom", :class => 'form-control'%>
+            </div>
 
-              <div class="field">
-                <%= form.label :email %>
-                <%= form.text_field :email %>
-              </div>
+            <div class="field">
+              <label class="sr-only" for="email">email:</label>
+              <%= form.text_field :email, placeholder: "email@example.com", :class => 'form-control' %>
+            </div>
 
-              <div class="actions">
-                <%= form.submit %>
-              </div>
-            <% end %>
+            <div class="actions">
+              <%= form.submit 'Inscrivez-vous', :class => 'btn btn-primary form-control' %>
+            </div>
+          <% end %>
         </div>
+      </div>
     </div>

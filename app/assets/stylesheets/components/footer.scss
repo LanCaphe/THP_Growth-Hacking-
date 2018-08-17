@@ -1,0 +1,19 @@
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 140px;
+    width: 100vw;
+    background-color: #e95e38
+}
+
+.metrics {
+    margin-top: 4%;
+    color: white;
+    text-align: center;
+
+}
+
+.metrics:not(:last-child) {
+    border-right: 2px solid #efe;
+}

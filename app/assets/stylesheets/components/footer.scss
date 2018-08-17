@@ -4,16 +4,20 @@ footer {
     left: 0;
     height: 140px;
     width: 100vw;
-    background-color: #e95e38
+    background-color: rgba(233, 94, 56, 0.8)
 }
-
 .metrics {
     margin-top: 4%;
     color: white;
     text-align: center;
+    height: 100%
 
 }
 
 .metrics:not(:last-child) {
     border-right: 2px solid #efe;
+}
+
+.metrics:hover {
+    background-color: rgb(233, 94, 56)
 }

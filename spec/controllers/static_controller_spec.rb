@@ -9,9 +9,9 @@ RSpec.describe StaticController, type: :controller do
     end
   end
 
-  describe "GET #index_students" do
+  describe "GET #index_journalists" do
     it "returns http success" do
-      get :index_students
+      get :index_journalists
       expect(response).to have_http_status(:success)
     end
   end

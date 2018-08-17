@@ -2,7 +2,7 @@
 
 ## L'application 
 
-L'application est accessible ici ( mettre lien heroku). 
+L'application est accessible [ici]( https://growth-hacking-flers-lille.herokuapp.com/). 
 
 Il s'application d'une application rails réalisée dans le cadre de la formation en coding, the Hacking projet par les moussaillons de Caen et Lille de la session 5 ( Léa, Edouard, Maxime et Manon). 
 
@@ -41,9 +41,9 @@ Voici un schéma reprennant le fonctionnement de l'application:
 
 * la gem 'dotenv': intégration sécurisée des clefs API pour en dévellopement. En production elles seront entré dans Heroku.
 
-* la gem 'mailjet':
+* la gem 'mailjet': permet d'automatiser l'envoie la newsletter
 
-* la gem 'amplitude-api'
+* la gem 'amplitude-api' : analytique
 
 * la gem 'gmail': gem permettant d'uttiliser une adresse gmail pour envoyer les mails.
 
@@ -54,5 +54,20 @@ Voici un schéma reprennant le fonctionnement de l'application:
 * la gem 'bootstrap' permet d'uttilisé un template bootstrap. Nous avons fait le choix de Boomerang ( beacause on l'avait sous la main).
 
 * les gems Capybara et RSPEC pour les tests 
+
+## Cette application est responsive:
+
+![exemple sur ipad](https://zupimages.net/up/18/33/d4ej.jpg)  
+capture d'écran d'un Ipad.
+
+## Les actions marketing et la newsletter sont programmés sur heroku schudeler
+
+![heroku schudeler](https://zupimages.net/up/18/33/xxs4.jpg)
+
+## Les liens vers les landpages
+
+*  [pour les étudiants](https://growth-hacking-flers-lille.herokuapp.com/)
+* [pour les journalistes](https://growth-hack-journalist.herokuapp.com/)
+* [pour les mairies](https://growth-hacking-mairies.herokuapp.com/) 
 
 
